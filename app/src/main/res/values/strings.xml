@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FinalProject 1</string>
+    <string name="add_actionbar">add</string>
+    <string name="addData">Tambah Data</string>
+    <string name="head_item_todolist">ExampleHeading</string>
+    <string name="btn_taskCompleted">Task Completed</string>
+    <string name="question_form">Apa yang ingin anda kerjakan?</string>
+    <string name="btn_tambah_task">Tambahkan Task</string>
+</resources>

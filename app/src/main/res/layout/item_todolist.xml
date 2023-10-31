@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:paddingHorizontal="10dp"
+        android:gravity="center"
+        android:paddingVertical="20dp">
+
+
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="0dp"
+            android:layout_weight="1.25"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/poppins"
+            android:maxWidth="0dp"
+            android:maxLines="2"
+            android:text="@string/head_item_todolist"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/editButton"
+            android:layout_width="8dp"
+            android:layout_weight="0.375"
+            android:layout_height="50dp"
+            android:layout_marginEnd="10dp"
+            android:text="Edit"
+            android:textColor="@color/green"
+            android:background="@drawable/btn_popup_dialog_backgruond"/>
+
+        <Button
+            android:id="@+id/taskCompletedButton"
+            android:layout_width="20dp"
+            android:layout_weight="0.399"
+            android:layout_height="50dp"
+            android:layout_marginEnd="7dp"
+            android:text="Complete"
+            android:textColor="@color/green"
+            android:background="@drawable/btn_popup_dialog_backgruond"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
